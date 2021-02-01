@@ -1,0 +1,37 @@
+/* selector desendiente */
+/* #cabezera{
+   text-align: center;
+   background-color:rgb(17, 19, 21);
+   color: white;
+} */
+.container{
+   width: 50%;
+}
+button{ 
+   margin: 13px; 
+   width: 100px;
+
+} 
+
+input ,#cbGenero {
+  
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nombres{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+/* evento cuando el mouse este en la tabla */
+.table-hover tbody tr:hover td {
+   background-color: rgb(52, 58, 64);
+   color: white;
+}
+.cabezaraTabla2{
+   background-color:rgb(17, 19, 21);  
+   color: white;
+}
+/* .table-striped{
+/* background-color: seagreen; */
+
+
+
