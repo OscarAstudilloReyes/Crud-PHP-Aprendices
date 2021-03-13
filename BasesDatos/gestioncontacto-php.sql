@@ -52,6 +52,15 @@ INSERT INTO `estudiantes` (`idEstudiante`, `esIndentificacion`, `esNombre`, `esA
 (70, '6534', 'jjuan', 'reyes', 'dasdasx@dasdsa', 'Masculino', '2020-11-05'),
 (71, '43213', 'dsadas', 'dasdas', 'dasdasd', 'Femenino', '2020-11-20');
 
+
+
+-- Creacion de procedimineto almecenado que borra un estudiante
+CREATE  PROCEDURE  borrarEstudiante
+(
+idBorrar INT
+)
+DELETE  FROM  estudiante WHERE  idEstuidante=idBorrar
+
 --
 -- Índices para tablas volcadas
 --

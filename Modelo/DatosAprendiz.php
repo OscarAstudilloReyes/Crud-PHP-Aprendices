@@ -104,7 +104,12 @@ class DatosAprendiz
     {
 
         try {
-            $consulta = "DELETE  FROM estudiantes WHERE idEstudiante=?";
+            // utilizando el procedimineto almacenado
+            //Ejm de creacion de uno
+            // Create procedure borrarEstudiante
+            // idBorrar int
+            // delete from estudiante where idEstuidante=idBorrar
+            $consulta = "CALL eliminarEstudiante(?)";
             $resultado = $this->miConexion->prepare($consulta);
             $resultado->bindParam(1, $idAprendiz);
             $resultado->execute();
